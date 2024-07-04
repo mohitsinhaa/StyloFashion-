@@ -1,0 +1,357 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', 'sans-serif';
+    background-color: rgba(192, 192, 192, 0.788);
+}
+
+/* Nav Section  */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgba(192, 192, 192, 0.788);
+    padding: 16px;
+    box-shadow: 0px 2px 2px 2px rgb(161, 159, 159);
+}
+
+nav .logo {
+    margin-left: 22px;
+    font-size: 16px;
+}
+
+ul {
+    margin-right: 45px;
+    margin-top: 18px;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li a {
+    margin-inline: 22px;
+    font-size: 20px;
+}
+
+ul li i {
+    font-size: 22px;
+}
+
+ul li #home {
+    color:rgb(6, 182, 182);
+}
+
+ul li a:hover {
+   border-bottom: 2px solid rgb(0, 0, 0);
+   cursor: pointer;
+}
+
+ul li i:hover {
+    color: grey;
+    cursor: pointer;
+ }
+ 
+ /* Main Section  */
+
+ .main {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 55px;
+ }
+
+ .main .mainText {
+    margin-top: 144px;
+ }
+
+ .mainText h1 {
+    font-size: 64px;
+ }
+
+ .mainText .top {
+    color:  rgb(4, 138, 138);
+ }
+
+ .mainText button {
+    width: 145px;
+    height: 40px;
+    background-color:  rgb(4, 138, 138);
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+ }
+
+ .mainText p {
+    margin-top: 12px;
+    font-size: 24px;
+ }
+
+ .mainText button:hover {
+  border:  3px solid  rgb(4, 138, 138);
+    background: transparent;
+    color:  rgb(4, 138, 138);
+ }
+
+ /* Card Section  */
+
+ .head h1{
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+ }
+
+ .head span {
+    color:  rgb(4, 138, 138);
+ }
+
+ .card {
+    display: flex;
+    justify-content: center;
+ }
+
+ .card .crd {
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    margin-inline: 11px;
+ }
+
+ .crd img {
+    width: 85%;
+    padding: 22px;
+    border-radius: 31px;
+ }
+
+ .crdText {
+    margin-left: 16px;
+    padding: 8px;
+ }
+
+.crdText button {
+    width: 130px;
+    height: 33px;
+    border: none;
+    background-color: rgb(4, 138, 138);
+    color: white;
+    font-size: 19px;
+    display: flex;
+    margin-top: 11px;
+    padding: 5px 15px;
+}
+
+.crdText i {
+     color: rgb(207, 207, 16);
+}
+
+/* Blog Section  */
+
+.blog {
+ display: flex;
+ justify-content: center;
+ width: 600px;
+ height: 250px;
+ background-color: white;
+ margin-inline: 22px;
+ border-radius: 11px;
+}
+
+.blog:hover {
+    transition: 0.6s ease;
+    width: 620px;
+ height: 270px;
+}
+
+.blog img {
+    padding: 22px;
+    width: 55%;
+}
+
+.blogText {
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.blogText a {
+    width: 90px;
+    height: 33px;
+    padding: 5px 10px;
+    background-color: rgb(4, 138, 138);
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    border-radius: 5px;
+}
+
+/* About Section  */
+
+.about {
+    display: none;
+}
+
+.aboutus {
+background-color: rgb(5, 5, 66);
+color: white;
+padding: 56px;
+font-size: 19px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    background-color: white;
+    padding: 33px;
+margin-left: 20%;
+margin-top: 5%;
+}
+
+.me img{
+    width: 44%;
+}
+
+/* Letter Section  */
+
+.letter {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(5, 5, 66);
+    padding: 33px;
+}
+
+.inp {
+    display: flex;
+}
+
+.inp input {
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+    margin-top: 35px;
+}
+
+.inp button {
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: rgb(4, 138, 138);
+    border: none;
+    margin-top: 35px;
+}
+
+/* Footer Section  */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+
+.footer .footerText {
+    margin-inline: 85px;
+}
+
+.footerText p {
+    margin-top: 11px;
+}
+
+/* Contact Section  */
+
+.contact {
+    display: none;
+}
+
+.contactus {
+    background-color: rgb(5, 5, 66);
+color: white;
+padding: 56px;
+font-size: 19px;
+}
+
+.contactme {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin-top: 5%;
+    background-color: #fff;
+    margin-left: 16%;
+}
+
+.contactme img {
+    width: 55%;
+}
+
+.contactText {
+    padding: 22px;
+    width: 600px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 5%;
+    padding: 22px;
+}
+
+.form input {
+    width: 300px;
+    padding: 5px;
+    height: 27px;
+    margin-top: 11px;
+}
+
+.form button {
+    width: 300px;
+    height: 36px;
+    background-color:  rgb(4, 138, 138);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+}
+
+/* Cart Section  */
+
+.cart {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.cartText {
+    padding: 22px;
+    margin-top: 22px;
+}
+
+.cartText p {
+    margin-top: 14px;
+}
+
+.cartText h2 {
+    margin-top: 11px;
+}
+
+.cartText .btn button {
+    width: 144px;
+    height: 40px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+
+.backBtn {
+    width: 144px;
+    height: 40px;
+    background-color:  rgb(4, 138, 138);
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
